@@ -1,5 +1,5 @@
 class ForagerBee extends Bee {
-  constructor(age, color, food, eat) {
+  constructor(age, job, canFly, color, food, eat) {
     super(color, food, eat);
     this.age = 10;
     this.job = 'find pollen';
